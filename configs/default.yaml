@@ -1,0 +1,32 @@
+# Defaults for `python -m ragship serve` and `python -m ragship eval`.
+# Environment variables override every value here. See .env.example.
+
+server:
+  host: 0.0.0.0
+  port: 8091
+
+qdrant:
+  # "memory" is in-process. Docker Compose sets QDRANT_URL=http://qdrant:6333.
+  url: memory
+  collection: ragship
+
+embedding:
+  provider: hash
+  model: hash
+  dimension: 384
+
+llm:
+  temperature: 0
+
+ingest:
+  chunk_size: 800
+  chunk_overlap: 120
+
+retrieval:
+  top_k: 5
+
+eval:
+  k: 5
+  min_recall: 1.0
+  dataset: demo/eval/labeled.jsonl
+  corpus: demo/corpus

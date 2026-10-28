@@ -1,0 +1,4 @@
+Qdrant stores the vectors for this service.
+Set QDRANT_URL to memory to run Qdrant entirely in process for tests.
+Running Qdrant entirely in process for tests avoids a separate database.
+Durable storage uses the bundled Qdrant service when you leave memory mode.

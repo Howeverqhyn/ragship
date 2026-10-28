@@ -1,0 +1,6 @@
+{"query": "Which TCP port does the ragship HTTP API listen on?", "relevant_ids": ["architecture.md"]}
+{"query": "What default chunk overlap does ragship use?", "relevant_ids": ["chunking.md"]}
+{"query": "How do I run Qdrant entirely in process for tests?", "relevant_ids": ["qdrant.txt"]}
+{"query": "Which embedding provider works offline without downloading a GPU model?", "relevant_ids": ["hash-embeddings.md"]}
+{"query": "When does ragship return an extractive answer without an API key?", "relevant_ids": ["extractive.md"]}
+{"query": "Which compose profile starts the local Ollama server?", "relevant_ids": ["ollama.md"]}
