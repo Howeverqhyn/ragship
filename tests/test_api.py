@@ -6,9 +6,9 @@ import json
 
 import httpx
 from fastapi.testclient import TestClient
-from tests.pdfutil import make_pdf
 
 from ragship.llm.client import OpenAICompatibleClient
+from tests.pdfutil import make_pdf
 
 
 def test_health(client):
